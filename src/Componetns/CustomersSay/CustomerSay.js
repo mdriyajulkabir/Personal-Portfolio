@@ -17,7 +17,7 @@ const CustomerSay = () => {
                     <div className='mt-3 '>
                     <Carousel variant='dark' fade>
   <Carousel.Item className="d-block w-100 h-100">
-     <div className='mx-auto my-auto' style={{backgroundColor: 'white' , width: '75%', height: '50%', alignItems: 'center'}}>
+     <div className='mx-auto my-auto' style={{  width: '75%', height: '50%', alignItems: 'center'}}>
         <p>Tidio has given our clients a quick and easy way to send over thoughts and questions without delay or wait time! No second guessing – just asked and answered quickly in order to make their purchasing decisions easier!</p>
         <div className='row gap-1 mx-auto'>
             <div className='col-4'>
@@ -35,7 +35,7 @@ const CustomerSay = () => {
     
   </Carousel.Item>
   <Carousel.Item className="d-block w-100 h-100">
-     <div className='mx-auto my-auto' style={{backgroundColor: 'white' , width: '75%', height: '50%', alignItems: 'center'}}>
+     <div className='mx-auto my-auto' style={{ width: '75%', height: '50%', alignItems: 'center'}}>
         <p>Tidio has given our clients a quick and easy way to send over thoughts and questions without delay or wait time! No second guessing – just asked and answered quickly in order to make their purchasing decisions easier!</p>
         <div className='row gap-1 mx-auto'>
             <div className='col-4'>
@@ -52,7 +52,7 @@ const CustomerSay = () => {
      </div>
     
   </Carousel.Item><Carousel.Item className="d-block w-100 h-100">
-     <div className='mx-auto my-auto' style={{backgroundColor: 'white' , width: '75%', height: '50%', alignItems: 'center'}}>
+     <div className='mx-auto my-auto' style={{ width: '75%', height: '50%', alignItems: 'center'}}>
         <p>Tidio has given our clients a quick and easy way to send over thoughts and questions without delay or wait time! No second guessing – just asked and answered quickly in order to make their purchasing decisions easier!</p>
         <div className='row gap-1 mx-auto'>
             <div className='col-4'>

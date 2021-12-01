@@ -67,4 +67,36 @@ textarea{
 }
 .btn:hover{
     background-color: rgb(51, 213, 224);
+    color: rgb(238, 164, 164);
+}
+
+@media screen and (max-width:480px) {
+    .c-wrapper{
+        flex-direction: column;
+        padding: 0px 50px;
+    }
+    .c-title{
+        font-size: 30px;
+    }
+    .c-info-item{
+        margin: 20px 0px;
+        width: 100%;
+    }
+    .c-desc{
+        display: none;
+    }
+    form{
+        margin-top: 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    input{
+        width: 30%;
+        height: 40px;
+        margin: 10px;
+        margin-left: 0;
+    }
+    button{
+        margin-top: 10px;
+    }
 }
