@@ -19,8 +19,8 @@ const WhatIDo = () => {
                     <div className='mt-4'>
                     <div class="row row-cols-1 row-cols-md-2 g-4">
   <div class="col">
-    <div class="card h-100 rounded shadow">
-      <img src={webdesign} class="card-img-top w-25 mx-auto mt-3" alt="..."/>
+    <div class=" h-100 rounded shadow">
+      <img src={webdesign} class="card-img-top w-25 mx-auto d-flex justify-content-center mt-3" alt="..."/>
       <div class="card-body">
         <h5 class="card-title text-center">Ｗｅｂ Ｄｅｓｉｇｎ</h5>
         <p class="card-text">Iɴ ᴛᴏᴅᴀʏ’ꜱ ᴅɪɢɪᴛᴀʟ ᴡᴏʀʟᴅ, ʏᴏᴜʀ ᴡᴇʙꜱɪᴛᴇ ɪꜱ ᴛʜᴇ ғɪʀꜱᴛ ɪɴᴛᴇʀᴀᴄᴛɪᴏɴ ᴄᴏɴꜱᴜᴍᴇʀꜱ ʜᴀᴠᴇ ᴡɪᴛʜ ʏᴏᴜʀ ʙᴜꜱɪɴᴇꜱꜱ. </p>
@@ -28,8 +28,8 @@ const WhatIDo = () => {
     </div>
   </div>
   <div class="col">
-    <div class="card h-100 shadow rounded">
-      <img src={webdevelopment} class="card-img-top mx-auto w-25 mt-3" alt="..."/>
+    <div class=" h-100 shadow rounded">
+      <img src={webdevelopment} class="card-img-top mx-auto d-flex justify-content-center w-25 mt-3" alt="..."/>
       <div class="card-body">
         <h5 class="card-title text-center">Ｗｅｂ Ｄｅｖｅｌｏｐｍｅｎｔ</h5>
         <p class="card-text">Wᴇʙ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ɪꜱ ᴛʜᴇ ᴡᴏʀᴋ ᴛʜᴀᴛ ʜᴀᴘᴘᴇɴꜱ ʙᴇʜɪɴᴅ ᴛʜᴇ ꜱᴄᴇɴᴇꜱ ᴛᴏ ᴍᴀᴋᴇ ᴀ ᴡᴇʙꜱɪᴛᴇ ʟᴏᴏᴋ ɢʀᴇᴀᴛ.</p>
@@ -37,8 +37,8 @@ const WhatIDo = () => {
     </div>
   </div>
   <div class="col">
-    <div class="card h-100 shadow rounded">
-      <img src={responsive} class="card-img-top w-25 mx-auto mt-3" alt="..."/>
+    <div class=" h-100 shadow rounded">
+      <img src={responsive} class="card-img-top w-25 mx-auto d-flex justify-content-center mt-3" alt="..."/>
       <div class="card-body">
         <h5 class="card-title text-center">Ｒｅｓｐｏｎｓｉｖｅ <br /> Ｄｅｓｉｇｎ</h5>
         <p class="card-text">I ᴄᴀɴ ᴅᴇꜱɪɢɴ ᴀ ᴡᴇʙ ғᴜʟʟʏ ʀᴇꜱᴘᴏɴꜱɪᴠᴇ ᴜꜱɪɴɢ ᴠᴀʀɪᴀɴᴛ ғʀᴀᴍᴇᴡᴏʀᴋ.</p>
@@ -46,8 +46,8 @@ const WhatIDo = () => {
     </div>
   </div>
   <div class="col">
-    <div class="card h-100 rounded shadow">
-      <img src={bug} class="card-img-top mx-auto w-25 mt-3" alt="..."/>
+    <div class=" h-100 rounded shadow">
+      <img src={bug} class="card-img-top mx-auto d-flex justify-content-center w-25 mt-3" alt="..."/>
       <div class="card-body">
         <h5 class="card-title text-center">Ｂｕｇ Ｆｉｘｉｎｇ</h5>
         <p class="card-text">A ʙᴜɢ ғɪx ɪꜱ ᴀ ᴄʜᴀɴɢᴇ ᴛᴏ ᴀ ꜱʏꜱᴛᴇᴍ ᴏʀ ᴘʀᴏᴅᴜᴄᴛ ᴅᴇꜱɪɢɴᴇᴅ ᴛᴏ ʜᴀɴᴅʟᴇ ᴀ ᴘʀᴏɢʀᴀᴍᴍɪɴɢ ʙᴜɢ/ɢʟɪᴛᴄʜ.</p>

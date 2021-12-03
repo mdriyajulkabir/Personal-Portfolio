@@ -20,16 +20,16 @@ const MySkill = () => {
             <div className='skill-img mx-auto'>
             <div class="row row-cols-2 row-cols-md-4 g-2">
   <div class="col">
-    <div class="card h-100">
-      <img src={html} class="card-img-top w-50 mx-auto mt-3" alt="..."/>
+    <div class=" h-100">
+      <img src={html} class="card-img-top w-50 mx-auto d-flex justify-content-center mt-3" alt="..."/>
       <div class="card-body">
         <h5 class="card-title">HTML</h5>
       </div>
     </div>
   </div>
   <div class="col">
-    <div class="card h-100">
-      <img src={css} class="card-img-top w-50 mx-auto mt-3" alt="..."/>
+    <div class=" h-100 rounded shadow">
+      <img src={css} class="card-img-top w-50 mx-auto d-flex justify-content-center mt-3 pt-3" alt="..."/>
       <div class="card-body">
         <h5 class="card-title">Css</h5>
       </div>

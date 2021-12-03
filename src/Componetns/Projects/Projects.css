@@ -1,0 +1,10 @@
+@media only screen and (min-width: 688px) {
+    .project-card{
+        width: 75%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .project-card{
+        width: 75%;
+    }
+}
