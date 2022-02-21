@@ -18,7 +18,7 @@ const ContactMe = () => {
       });
     }
     return (
-        <div className='c'>
+        <div className='c' id='contact'>
             <div className="c-bg"></div>
                 <div className="c-wrapper">
                     <div className="c-left">
@@ -35,7 +35,7 @@ const ContactMe = () => {
                         </div>
                         <div className="c-info">
                             <div className="c-info-item">
-                            <i class="fas fa-map-marker-alt c-icon"></i> Narsingdi 1600, Bangladesh
+                            <i className="fas fa-map-marker-alt c-icon"></i> Narsingdi 1600, Bangladesh
                             </div>
                         </div>
                     </div>

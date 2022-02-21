@@ -1,26 +1,34 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
-
+// import { NavLink } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
+import './Header.css'
 const Header = () => {
     return (
         <div>
-            <Navbar bg="white" className='sticky-top' variant="light" collapseOnSelect expand="lg ">
+            <Navbar bg="dark" className='sticky-top' variant="dark" collapseOnSelect expand="lg">
             <Container>
                 <Navbar.Brand href="#home">Riyajul kabir </Navbar.Brand>
                 <Navbar.Toggle />
                 <Navbar.Collapse  className=' justify-text-end fw-normal'>
-                <Nav className="me-auto">
-                <Nav.Link>
+                <Nav className="mx-auto ">
+                <Nav.Link className='nav' as={HashLink} to="#home">
                     Home
                 </Nav.Link>
-                <Nav.Link>
+                <Nav.Link className='nav' as={HashLink} to="#explore">
                     Explore 
                 </Nav.Link>
-                <Nav.Link>
+                <Nav.Link className='nav' as={HashLink} to="#skill">
+                    Skills
+                </Nav.Link>
+                <Nav.Link className='nav' as={HashLink} to="#projects">
+                    Projects
+                </Nav.Link>
+                <Nav.Link className='nav' as={HashLink} to="#contact">
                 Contact Us 
                 </Nav.Link>
-                <Nav.Link>
-                    About Us 
+                <Nav.Link className='nav' as={HashLink} to="#about">
+                    About Me 
                 </Nav.Link>
                 
                 

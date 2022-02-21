@@ -14,105 +14,105 @@ import github from '../../Images/github.png'
 import './MySkill.css'
 const MySkill = () => {
     return (
-        <div className='my-5'>
+        <div className='my-5' id='skill'>
             <h2 className='text-center'>Ｍｙ Ｓｋｉｌｌ</h2>
             <hr className='w-75 mx-auto' />
             <div className='skill-img mx-auto'>
-            <div class="row row-cols-2 row-cols-md-4 g-2">
-  <div class="col">
-    <div class=" h-100">
-      <img src={html} class="card-img-top w-50 mx-auto d-flex justify-content-center mt-3" alt="..."/>
-      <div class="card-body">
-        <h5 class="card-title">HTML</h5>
+            <div className="row row-cols-2 row-cols-md-4 g-2">
+  <div className="col">
+    <div className=" h-100 rounded shadow">
+      <img src={html} className="card-img-top w-50 mx-auto d-flex justify-content-center mt-3 pt-3" alt="..."/>
+      <div className="card-body">
+        <h5 className="card-title">HTML</h5>
       </div>
     </div>
   </div>
-  <div class="col">
-    <div class=" h-100 rounded shadow">
-      <img src={css} class="card-img-top w-50 mx-auto d-flex justify-content-center mt-3 pt-3" alt="..."/>
-      <div class="card-body">
-        <h5 class="card-title">Css</h5>
+  <div className="col">
+    <div className=" h-100 rounded shadow">
+      <img src={css} className="card-img-top w-50 mx-auto d-flex justify-content-center mt-3 pt-3" alt="..."/>
+      <div className="card-body">
+        <h5 className="card-title">Css</h5>
       </div>
     </div>
   </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src={bootsrap} class="card-img-top w-50 mx-auto mt-3" alt="..."/>
-      <div class="card-body">
-        <h5 class="card-title">Bootsrap</h5>
+  <div className="col">
+    <div className="h-100 rounded shadow">
+      <img src={bootsrap} className="card-img-top w-50 mx-auto d-flex justify-content-center mt-3 pt-3" alt="..."/>
+      <div className="card-body">
+        <h5 className="card-title">Bootsrap</h5>
         
       </div>
     </div>
   </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src={mui} class="card-img-top w-50 mx-auto mt-3" alt="..."/>
-      <div class="card-body">
-        <h5 class="card-title">Materil UI</h5>
+  <div className="col">
+    <div className="h-100 rounded shadow">
+      <img src={mui} className="card-img-top w-50 mx-auto d-flex justify-content-center mt-3 pt-3" alt="..."/>
+      <div className="card-body">
+        <h5 className="card-title">Materil UI</h5>
       </div>
     </div>
   </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src={tailwind} class="card-img-top w-50 mx-auto mt-3" alt="..."/>
-      <div class="card-body">
-        <h5 class="card-title">Tailwind</h5>
+  <div className="col">
+    <div className="h-100 rounded shadow">
+      <img src={tailwind} className="card-img-top w-50 mx-auto d-flex justify-content-center mt-3 pt-3" alt="..."/>
+      <div className="card-body">
+        <h5 className="card-title">Tailwind</h5>
       </div>
     </div>
   </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src={js} class="card-img-top w-50 mx-auto mt-3" alt="..."/>
-      <div class="card-body">
-        <h5 class="card-title">JavaScript</h5>
+  <div className="col">
+    <div className="h-100 rounded shadow">
+      <img src={js} className="card-img-top w-50 mx-auto d-flex justify-content-center mt-3 pt-3" alt="..."/>
+      <div className="card-body">
+        <h5 className="card-title">JavaScript</h5>
       </div>
     </div>
   </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src={react} class="card-img-top w-50 mx-auto mt-3" alt="..."/>
-      <div class="card-body">
-        <h5 class="card-title">React Js</h5>
+  <div className="col">
+    <div className="h-100 rounded shadow">
+      <img src={react} className="card-img-top w-50 mx-auto d-flex justify-content-center mt-3 pt-3" alt="..."/>
+      <div className="card-body">
+        <h5 className="card-title">React Js</h5>
       </div>
     </div>
   </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src={expressjs} class="card-img-top w-50 mx-auto mt-3" alt="..."/>
-      <div class="card-body">
-        <h5 class="card-title">Express Js</h5>
+  <div className="col">
+    <div className="h-100 rounded shadow">
+      <img src={expressjs} className="card-img-top w-50 mx-auto d-flex justify-content-center mt-3 pt-3" alt="..."/>
+      <div className="card-body">
+        <h5 className="card-title">Express Js</h5>
       </div>
     </div>
   </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src={nodejs} class="card-img-top w-50 mx-auto mt-3" alt="..."/>
-      <div class="card-body">
-        <h5 class="card-title">Node Js</h5>
+  <div className="col">
+    <div className="h-100 rounded shadow">
+      <img src={nodejs} className="card-img-top w-50 mx-auto d-flex justify-content-center mt-3 pt-3" alt="..."/>
+      <div className="card-body">
+        <h5 className="card-title">Node Js</h5>
       </div>
     </div>
   </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src={mongodb} class="card-img-top w-50 mx-auto mt-3" alt="..."/>
-      <div class="card-body">
-        <h5 class="card-title">Mongo DB</h5>
+  <div className="col">
+    <div className="h-100 rounded shadow">
+      <img src={mongodb} className="card-img-top w-50 mx-auto d-flex justify-content-center mt-3 pt-3" alt="..."/>
+      <div className="card-body">
+        <h5 className="card-title">Mongo DB</h5>
       </div>
     </div>
   </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src={firebase} class="card-img-top w-50 mx-auto mt-3" alt="..."/>
-      <div class="card-body">
-        <h5 class="card-title">Firebase</h5>
+  <div className="col">
+    <div className="h-100 rounded shadow">
+      <img src={firebase} className="card-img-top w-50 mx-auto d-flex justify-content-center mt-3 pt-3" alt="..."/>
+      <div className="card-body">
+        <h5 className="card-title">Firebase</h5>
       </div>
     </div>
   </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src={github} class="card-img-top w-50 mx-auto mt-3" alt="..."/>
-      <div class="card-body">
-        <h5 class="card-title">GitHub</h5>
+  <div className="col">
+    <div className="h-100 rounded shadow">
+      <img src={github} className="card-img-top w-50 mx-auto d-flex justify-content-center mt-3 pt-3" alt="..."/>
+      <div className="card-body">
+        <h5 className="card-title">GitHub</h5>
       </div>
     </div>
   </div>

@@ -2,7 +2,7 @@ import React from 'react';
 import riyajul from '../../Images/IMG_4114_1_-removebg-preview.png'
 const WhoIam = () => {
     return (
-        <div className='my-5'>
+        <div className='my-5' id='about'>
             <div className="row container-fluid">
                 <div className="col-lg-5 col-sm-12  d-flex justify-content-center">
                 <img className='img-fluid mx-auto' src={riyajul} alt="" />
