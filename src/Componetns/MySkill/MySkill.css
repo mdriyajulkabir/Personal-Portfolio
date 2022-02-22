@@ -1,10 +1,32 @@
+.skill-icon-div:hover .skill-icon {
+  animation: animate 3s linear;
+}
+
+@keyframes animate {
+  0% {
+    transform: rotateY(0deg);
+  }
+  25% {
+    transform: rotateY(180deg);
+  }
+  50% {
+    transform: rotateY(360deg);
+  }
+  75% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    transform: rotateY(0deg);
+  }
+}
+
 @media only screen and (min-width: 688px) {
-    .skill-img{
-        width: 50%;
-    }
+  .skill-img {
+    width: 50%;
+  }
 }
 @media only screen and (max-width: 500px) {
-    .skill-img{
-        width: 75%;
-    }
+  .skill-img {
+    width: 75%;
+  }
 }

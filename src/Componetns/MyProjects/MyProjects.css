@@ -1,21 +1,27 @@
-.techlist>li{
-    display: inline-block;
-    list-style: none;
-    font-size: 1rem;
-    background-color: #4b5769;
-    margin: 0.2rem;
-    padding: 0.2rem 0.4rem;
-    border-radius: 5px;
+.techlist > li {
+  display: inline-block;
+  list-style: none;
+  font-size: 1rem;
+  background-color: #4b5769;
+  margin: 0.2rem;
+  padding: 0.2rem 0.4rem;
+  border-radius: 5px;
 }
 
-.project-img-box{
-        width: 100%;
-        height: 100%;
-        background-size: cover;
-        background-position: top;
-        transition: ease-in-out 5s;
+.project-img-box {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: top;
+  transition: ease-in-out 5s;
 }
-.project-img-box:hover{
-    background-position: bottom;
-    
+.project-img-box:hover {
+  background-position: bottom;
+}
+
+@media screen and (max-width: 415px) {
+  .project-img-box {
+    width: 180px;
+    height: 200px;
+  }
 }

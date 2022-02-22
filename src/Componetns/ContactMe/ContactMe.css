@@ -1,102 +1,102 @@
-.c{
-    height: 100vh;
-    position: relative;
+.c {
+  height: 100vh;
+  position: relative;
 }
-.c-bg{
-    width: 20px;
-    height: 100%;
-    background-color: rgb(45, 76, 78);
-    position: absolute;
+.c-bg {
+  width: 20px;
+  height: 100%;
+  background-color: rgb(45, 76, 78);
+  position: absolute;
 }
-.c-wrapper{
-    padding: 50px;
-    display: flex;
+.c-wrapper {
+  padding: 50px;
+  display: flex;
 }
-.c-left{
-    flex: 1;
+.c-left {
+  flex: 1;
 }
-.c-right{
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.c-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.c-title{
-    font-size: 40px;
-    width: 80%;
+.c-title {
+  font-size: 40px;
+  width: 80%;
 }
-.c-info-item{
-    display: flex;
-    align-items: center;
-    margin: 50px 0px;
-    font-weight: 300;
-    width: 70%;
-    /* justify-content: center; */
+.c-info-item {
+  display: flex;
+  align-items: center;
+  margin: 50px 0px;
+  font-weight: 300;
+  width: 70%;
+  /* justify-content: center; */
 }
-.c-icon{
-    width: 30px;
-    height: 30px;
-    margin-right: 20px;
+.c-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
 }
-form{
-    margin-top: 20px;
+form {
+  margin-top: 20px;
 }
-input{
-    width: 75%;
-    height: 50px;
-    border: none;
-    border-bottom: 1px solid black;
-    margin: 10px 0px;
-    font-size: 14px;
-    padding-left: 10px;
+input {
+  width: 75%;
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid black;
+  margin: 10px 0px;
+  font-size: 14px;
+  padding-left: 10px;
 }
-textarea{
-    width: 100%;
-    margin: 10px 0px;
-    font-size: 14px;
-    padding-left: 10px;
+textarea {
+  width: 100%;
+  margin: 10px 0px;
+  font-size: 14px;
+  padding-left: 10px;
 }
-.btn{
-    border: none;
-    padding: 15px;
-    background-color: rgb(45, 76, 78);
-    color: white;
-    font-weight: 500;
-    cursor: pointer;
+.btn {
+  border: none;
+  padding: 15px;
+  background-color: rgb(45, 76, 78);
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
 }
-.btn:hover{
-    background-color: rgb(51, 213, 224);
-    color: rgb(238, 164, 164);
+.btn:hover {
+  background-color: rgb(51, 213, 224);
+  color: rgb(238, 164, 164);
 }
 
-@media screen and (max-width:480px) {
-    .c-wrapper{
-        flex-direction: column;
-        padding: 0px 50px;
-    }
-    .c-title{
-        font-size: 30px;
-    }
-    .c-info-item{
-        margin: 20px 0px;
-        width: 100%;
-    }
-    .c-desc{
-        display: none;
-    }
-    form{
-        margin-top: 0;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    input{
-        width: 30%;
-        height: 40px;
-        margin: 10px;
-        margin-left: 0;
-    }
-    button{
-        margin-top: 10px;
-    }
+@media screen and (max-width: 480px) {
+  .c-wrapper {
+    flex-direction: column;
+    padding: 0px 50px;
+  }
+  .c-title {
+    font-size: 30px;
+  }
+  .c-info-item {
+    margin: 20px 0px;
+    width: 100%;
+  }
+  .c-desc {
+    display: none;
+  }
+  form {
+    margin-top: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  input {
+    width: 30%;
+    height: 40px;
+    margin: 10px;
+    margin-left: 0;
+  }
+  button {
+    margin-top: 10px;
+  }
 }
