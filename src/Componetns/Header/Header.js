@@ -13,7 +13,7 @@ const Header = () => {
         collapseOnSelect
         expand="lg">
         <Container>
-          <Navbar.Brand href="#home">Riyajul kabir </Navbar.Brand>
+          <Navbar.Brand href="#home">𝕽𝖎𝖞𝖆𝖏𝖚𝖑 𝕶𝖆𝖇𝖎𝖗 </Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse className=" justify-text-end fw-normal">
             <Nav className="mx-auto ">
